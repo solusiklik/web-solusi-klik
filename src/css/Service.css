@@ -1,0 +1,28 @@
+.card {
+    background-color: #f7f9fa;
+    cursor: pointer;
+}
+.card:hover {
+    background-color: #0d6dfc;
+    cursor: pointer;
+}
+.btn-service {
+    background-color: #0d6dfc;
+    cursor: pointer;
+}
+.card:hover .btn-service {
+    background-color: #f7f9fa;
+    cursor: pointer;
+}
+.icon-service {
+    color: white;
+}
+.card:hover .icon-service {
+    color: #0d6dfc;
+}
+.card:hover .card-title {
+    color: white;
+}
+.card:hover .card-text {
+    color: white;
+}
