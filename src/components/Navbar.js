@@ -16,7 +16,7 @@ function Navbar() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
   return (
-    <nav className={`navbar navbar-expand-lg fixed-top px-4 py-2 custom-navbar ${scrolled ? "bg-white shadow-sm" : "bg-transparent"} transition-navbar`}>
+    <nav className={`navbar navbar-expand-lg fixed-top px-4 py-2 custom-navbar ${scrolled ? "bg-white shadow-sm" : "bg-transparent"} transition-navbar`} style={{ fontFamily: "Poppins, sans-serif" }}>
       <div className="container-fluid d-flex align-items-center justify-content-center gap-5">
         {/* Kiri: logo + nav */}
         <div className="d-flex align-items-center gap-5">
@@ -99,7 +99,7 @@ function Navbar() {
               className="btn btn-primary d-flex align-items-center gap-2 rounded-pill px-4 py-2"
             >
               Our Store{" "}
-              <i className="fa-solid fa-arrow-up-right-from-square"></i>
+              <i class="fa-solid fa-cart-shopping"></i>
             </a>
           </div>
         </div>

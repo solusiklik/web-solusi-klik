@@ -1,11 +1,13 @@
+import "@fortawesome/fontawesome-free/css/all.min.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 import "../css/Home.css";
+import { useEffect, useState } from "react";
 import Why from "./Why";
 import Number from "./Number";
 import Service from "./Service";
 import Slider from "./Slider";
-import { useEffect, useState } from "react";
-import "@fortawesome/fontawesome-free/css/all.min.css";
-import "bootstrap/dist/css/bootstrap.min.css";
+import Innovation from "./Innovation";
+import GreenPower from "./GreenPower";
 
 const images = ["/images/Alat Berat.png", "/images/Alat IT.png", "/images/alat kesehatan.png", "/images/alat laboratorium.png", "/images/Kendaraan.png", "/images/Mobil.png", "/images/Perkakas.png"];
 
@@ -55,12 +57,12 @@ function Home() {
                       fontSize: "14px",
                       fontWeight: "500",
                       gap: "10px",
-                      width: "11rem",
+                      width: "12rem",
                     }}
                   >
-                    Get a Quote
+                    Hubungi Kami
                     <i
-                      className="fa-solid fa-arrow-up-right-from-square"
+                      className="fa-brands fa-whatsapp"
                       style={{
                         backgroundColor: "#0c232b",
                         color: "white",
@@ -70,7 +72,7 @@ function Home() {
                       }}
                     ></i>
                   </a>
-                  <i
+                  {/* <i
                     className="fa-solid fa-hammer"
                     style={{
                       backgroundColor: "#0c232b",
@@ -79,7 +81,7 @@ function Home() {
                       padding: "20px",
                       fontSize: "20px"
                     }}
-                  ></i>
+                  ></i> */}
                 </div>
                 <div className="row mt-5">
                   <div
@@ -184,6 +186,8 @@ function Home() {
       <Number/>
       <Service/>
       <Slider/>
+      <Innovation/>
+      <GreenPower/>
       {/* <Why /> */}
     </div>
   );
