@@ -1,0 +1,18 @@
+.banner-text {
+  bottom: 10px;
+  transition: bottom 0.6s ease-in-out;
+}
+
+.banner-extra {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.6s ease;
+}
+
+.banner-hover-wrapper:hover .banner-text {
+  bottom: 60px;
+}
+
+.banner-hover-wrapper:hover .banner-extra {
+  max-height: 100px;
+}

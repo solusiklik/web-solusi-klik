@@ -8,6 +8,7 @@ import Service from "./Service";
 import Slider from "./Slider";
 import Innovation from "./Innovation";
 import GreenPower from "./GreenPower";
+import Banner from "./Banner";
 
 const images = ["/images/Alat Berat.png", "/images/Alat IT.png", "/images/alat kesehatan.png", "/images/alat laboratorium.png", "/images/Kendaraan.png", "/images/Mobil.png", "/images/Perkakas.png"];
 
@@ -188,6 +189,9 @@ function Home() {
       <Slider/>
       <Innovation/>
       <GreenPower/>
+      <div style={{ position: "relative", zIndex: 2 }}>
+        <Banner/>
+      </div>
       {/* <Why /> */}
     </div>
   );
