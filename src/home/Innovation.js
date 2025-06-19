@@ -2,7 +2,7 @@ import styles from "../css/Innovation.module.css";
 
 function Innovation() {
   return (
-    <div style={{ fontFamily: "Poppins, sans-serif" }}>
+    <div>
       <div className="container my-5">
         <div className="row d-flex justify-content-center">
           <div className="col-6">

@@ -3,7 +3,7 @@ import "@fortawesome/fontawesome-free/css/all.min.css";
 
 export default function About() {
   return (
-    <div style={{ fontFamily: "Poppins, sans-serif" }}>
+    <div>
       {/* Hero Section */}
       <section
         style={{

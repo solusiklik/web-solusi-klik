@@ -7,7 +7,6 @@ function Footer() {
       style={{
         backgroundColor: "#0761e6",
         color: "white",
-        fontFamily: "Poppins, sans-serif",
         marginTop: "5rem",
         paddingTop: "11rem",
         position: "relative",

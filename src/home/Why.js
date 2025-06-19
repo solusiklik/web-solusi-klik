@@ -2,7 +2,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Why() {
   return (
-    <div className="container-fluid px-0" style={{ fontFamily: "Poppins, sans-serif" }}>
+    <div className="container-fluid px-0">
       <div className="row g-0">
         <div
           className="col-md-6 text-white d-flex align-items-center"

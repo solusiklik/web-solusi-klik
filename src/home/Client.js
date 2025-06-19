@@ -35,8 +35,8 @@ const testimonials = [
 export default function Client() {
   return (
     <div
-      className="text-white mt-5 pt-5 px-3"
-      style={{ backgroundColor: "#0a5bd1", fontFamily: "Poppins, sans-serif" }}
+      className="text-white mt-5 py-5 px-3"
+      style={{ backgroundColor: "#0a5bd1" }}
     >
       <div className="container text-center ">
         <h2 className="fw-semibold display-3 mx-5">

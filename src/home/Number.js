@@ -2,7 +2,7 @@ import CountUp from 'react-countup';
 
 function Number() {
   return (
-    <div className="row d-flex w-100" style={{ fontFamily: "Poppins, sans-serif", marginTop: "6rem", marginBottom: "6rem"  }}>
+    <div className="row d-flex w-100" style={{ marginTop: "6rem", marginBottom: "6rem"  }}>
       <div className="col-lg-2"></div>
       <div className="col-lg-2 col-md-3 mb-4 ml-lg-4 ps-lg-4">
         <div className="d-flex align-items-center">

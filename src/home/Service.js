@@ -2,10 +2,7 @@ import styles from "../css/Service.module.css";
 
 function Service() {
   return (
-    <div
-      className="container pt-5 px-3 px-md-5"
-      style={{ fontFamily: "Poppins, sans-serif" }}
-    >
+    <div className="container pt-5 px-3 px-md-5">
       <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
         <div className="col">
           <div className={`${styles["card"]} h-100 border-0 p-3`}>
@@ -30,7 +27,9 @@ function Service() {
           <div className={`${styles["card"]} h-100 border-0 p-3`}>
             <div className="card-body">
               <a className={`${styles["btn-service"]} btn w-auto`}>
-                <i className={`${styles["icon-service"]} fs-1 fa-solid fa-faucet-drip`}></i>
+                <i
+                  className={`${styles["icon-service"]} fs-1 fa-solid fa-faucet-drip`}
+                ></i>
               </a>
               <h6 className="card-title my-3" style={{ fontSize: "22px" }}>
                 Secure Pengadaan Aman
@@ -47,7 +46,9 @@ function Service() {
           <div className={`${styles["card"]} h-100 border-0 p-3`}>
             <div className="card-body">
               <a className={`${styles["btn-service"]} btn w-auto`}>
-                <i className={`${styles["icon-service"]} fs-1 fa-solid fa-wrench`}></i>
+                <i
+                  className={`${styles["icon-service"]} fs-1 fa-solid fa-wrench`}
+                ></i>
               </a>
               <h6 className="card-title my-3" style={{ fontSize: "22px" }}>
                 Secure Pengadaan Aman
@@ -64,7 +65,9 @@ function Service() {
           <div className={`${styles["card"]} h-100 border-0 p-3`}>
             <div className="card-body">
               <a className={`${styles["btn-service"]} btn w-auto`}>
-                <i className={`${styles["icon-service"]} fs-1 fa-solid fa-screwdriver-wrench`}></i>
+                <i
+                  className={`${styles["icon-service"]} fs-1 fa-solid fa-screwdriver-wrench`}
+                ></i>
               </a>
               <h6 className="card-title my-3" style={{ fontSize: "22px" }}>
                 Secure Pengadaan Aman
@@ -81,7 +84,9 @@ function Service() {
           <div className={`${styles["card"]} h-100 border-0 p-3`}>
             <div className="card-body">
               <a className={`${styles["btn-service"]} btn w-auto`}>
-                <i className={`${styles["icon-service"]} fs-1 fa-solid fa-paint-roller`}></i>
+                <i
+                  className={`${styles["icon-service"]} fs-1 fa-solid fa-paint-roller`}
+                ></i>
               </a>
               <h6 className="card-title my-3" style={{ fontSize: "22px" }}>
                 Secure Pengadaan Aman
@@ -98,7 +103,9 @@ function Service() {
           <div className={`${styles["card"]} h-100 border-0 p-3`}>
             <div className="card-body">
               <a className={`${styles["btn-service"]} btn w-auto`}>
-                <i className={`${styles["icon-service"]} fs-1 fa-solid fa-wheat-awn`}></i>
+                <i
+                  className={`${styles["icon-service"]} fs-1 fa-solid fa-wheat-awn`}
+                ></i>
               </a>
               <h6 className="card-title my-3" style={{ fontSize: "22px" }}>
                 Secure Pengadaan Aman

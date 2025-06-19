@@ -2,7 +2,7 @@ import styles from "../css/GreenPower.module.css";
 function GreenPower() {
   return (
     <div>
-      <div style={{ fontFamily: "Poppins, sans-serif" }}>
+      <div>
         <div className="container mb-5">
           <div className="row">
             <div className="col-lg-8">

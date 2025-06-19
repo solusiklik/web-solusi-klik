@@ -41,10 +41,7 @@ function Home() {
 
   return (
     <div>
-      <div
-        className="container-fluid"
-        style={{ fontFamily: "Poppins, sans-serif" }}
-      >
+      <div className="container-fluid">
         <div className="row align-items-center">
           {/* Konten Kiri */}
           <div className="col-lg-6">
@@ -86,10 +83,7 @@ function Home() {
                   </a>
                 </div>
                 <div className="row mt-5">
-                  <div
-                    className="col-lg-4"
-                    style={{ fontFamily: "Poppins, sans-serif" }}
-                  >
+                  <div className="col-lg-4">
                     <h5 className="fw-bold">Our Client</h5>
                     <div className="d-flex align-items-center justify-content-center mt-3">
                       {/* Avatar 1 */}

@@ -16,7 +16,7 @@ function Navbar() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
   return (
-    <nav className={`navbar navbar-expand-lg fixed-top px-4 py-2 custom-navbar ${scrolled ? "bg-white shadow-sm" : "bg-transparent"} transition-navbar`} style={{ fontFamily: "Poppins, sans-serif" }}>
+    <nav className={`navbar navbar-expand-lg fixed-top px-4 py-2 custom-navbar ${scrolled ? "bg-white shadow-sm" : "bg-transparent"} transition-navbar`}>
       <div className="container-fluid d-flex align-items-center justify-content-center gap-5">
         {/* Kiri: logo + nav */}
         <div className="d-flex align-items-center gap-5">
