@@ -10,6 +10,7 @@ import Slider from "./Slider";
 import Innovation from "./Innovation";
 import GreenPower from "./GreenPower";
 import Banner from "./Banner";
+import Client from "./Client";
 
 const images = [
   "/images/Alat Berat.png",
@@ -83,16 +84,6 @@ function Home() {
                       }}
                     ></i>
                   </a>
-                  {/* <i
-                    className="fa-solid fa-hammer"
-                    style={{
-                      backgroundColor: "#0c232b",
-                      color: "white",
-                      borderRadius: "50%",
-                      padding: "20px",
-                      fontSize: "20px"
-                    }}
-                  ></i> */}
                 </div>
                 <div className="row mt-5">
                   <div
@@ -201,6 +192,7 @@ function Home() {
       </div>
       <Number />
       <Experience />
+      <Client />
       <Service />
       <Slider />
       <Innovation />

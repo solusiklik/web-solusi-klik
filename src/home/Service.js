@@ -3,7 +3,7 @@ import styles from "../css/Service.module.css";
 function Service() {
   return (
     <div
-      className="container px-3 px-md-5"
+      className="container pt-5 px-3 px-md-5"
       style={{ fontFamily: "Poppins, sans-serif" }}
     >
       <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
