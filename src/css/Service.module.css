@@ -1,6 +1,7 @@
 .card {
     background-color: #f7f9fa;
     cursor: pointer;
+    border-radius: 20px;
 }
 .card:hover {
     background-color: #0d6dfc;
@@ -9,6 +10,7 @@
 .btn-service {
     background-color: #0d6dfc;
     cursor: pointer;
+    border-radius: 50%;
 }
 .card:hover .btn-service {
     background-color: #f7f9fa;

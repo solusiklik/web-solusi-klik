@@ -1,4 +1,4 @@
-import "../css/Service.css";
+import styles from "../css/Service.module.css";
 
 function Service() {
   return (
@@ -8,16 +8,12 @@ function Service() {
     >
       <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
         <div className="col">
-          <div
-            className="card h-100 border-0 p-3"
-            style={{ borderRadius: "20px" }}
-          >
+          <div className={`${styles["card"]} h-100 border-0 p-3`}>
             <div className="card-body">
-              <a
-                className="btn btn-service w-auto"
-                style={{ borderRadius: "50%" }}
-              >
-                <i className="fa-solid fa-hammer icon-service fs-1"></i>
+              <a className={`${styles["btn-service"]} btn w-auto`}>
+                <i
+                  className={`${styles["icon-service"]} fs-1 fa-solid fa-hammer`}
+                ></i>
               </a>
               <h6 className="card-title my-3" style={{ fontSize: "22px" }}>
                 Secure Pengadaan Aman
@@ -31,16 +27,10 @@ function Service() {
           </div>
         </div>
         <div className="col">
-          <div
-            className="card h-100 border-0 p-3"
-            style={{ borderRadius: "20px" }}
-          >
+          <div className={`${styles["card"]} h-100 border-0 p-3`}>
             <div className="card-body">
-              <a
-                className="btn btn-service w-auto"
-                style={{ borderRadius: "50%" }}
-              >
-                <i className="fa-solid fa-faucet-drip icon-service fs-1"></i>
+              <a className={`${styles["btn-service"]} btn w-auto`}>
+                <i className={`${styles["icon-service"]} fs-1 fa-solid fa-faucet-drip`}></i>
               </a>
               <h6 className="card-title my-3" style={{ fontSize: "22px" }}>
                 Secure Pengadaan Aman
@@ -54,16 +44,10 @@ function Service() {
           </div>
         </div>
         <div className="col">
-          <div
-            className="card h-100 border-0 p-3"
-            style={{ borderRadius: "20px" }}
-          >
+          <div className={`${styles["card"]} h-100 border-0 p-3`}>
             <div className="card-body">
-              <a
-                className="btn btn-service w-auto"
-                style={{ borderRadius: "50%" }}
-              >
-                <i className="fa-solid fa-wrench icon-service fs-1"></i>
+              <a className={`${styles["btn-service"]} btn w-auto`}>
+                <i className={`${styles["icon-service"]} fs-1 fa-solid fa-wrench`}></i>
               </a>
               <h6 className="card-title my-3" style={{ fontSize: "22px" }}>
                 Secure Pengadaan Aman
@@ -77,16 +61,10 @@ function Service() {
           </div>
         </div>
         <div className="col">
-          <div
-            className="card h-100 border-0 p-3"
-            style={{ borderRadius: "20px" }}
-          >
+          <div className={`${styles["card"]} h-100 border-0 p-3`}>
             <div className="card-body">
-              <a
-                className="btn btn-service w-auto"
-                style={{ borderRadius: "50%" }}
-              >
-                <i className="fa-solid fa-screwdriver-wrench icon-service fs-1"></i>
+              <a className={`${styles["btn-service"]} btn w-auto`}>
+                <i className={`${styles["icon-service"]} fs-1 fa-solid fa-screwdriver-wrench`}></i>
               </a>
               <h6 className="card-title my-3" style={{ fontSize: "22px" }}>
                 Secure Pengadaan Aman
@@ -100,16 +78,10 @@ function Service() {
           </div>
         </div>
         <div className="col">
-          <div
-            className="card h-100 border-0 p-3"
-            style={{ borderRadius: "20px" }}
-          >
+          <div className={`${styles["card"]} h-100 border-0 p-3`}>
             <div className="card-body">
-              <a
-                className="btn btn-service w-auto"
-                style={{ borderRadius: "50%" }}
-              >
-                <i className="fa-solid fa-paint-roller icon-service fs-1"></i>
+              <a className={`${styles["btn-service"]} btn w-auto`}>
+                <i className={`${styles["icon-service"]} fs-1 fa-solid fa-paint-roller`}></i>
               </a>
               <h6 className="card-title my-3" style={{ fontSize: "22px" }}>
                 Secure Pengadaan Aman
@@ -123,16 +95,10 @@ function Service() {
           </div>
         </div>
         <div className="col">
-          <div
-            className="card h-100 border-0 p-3"
-            style={{ borderRadius: "20px" }}
-          >
+          <div className={`${styles["card"]} h-100 border-0 p-3`}>
             <div className="card-body">
-              <a
-                className="btn btn-service w-auto"
-                style={{ borderRadius: "50%" }}
-              >
-                <i className="fa-solid fa-wheat-awn icon-service fs-1"></i>
+              <a className={`${styles["btn-service"]} btn w-auto`}>
+                <i className={`${styles["icon-service"]} fs-1 fa-solid fa-wheat-awn`}></i>
               </a>
               <h6 className="card-title my-3" style={{ fontSize: "22px" }}>
                 Secure Pengadaan Aman

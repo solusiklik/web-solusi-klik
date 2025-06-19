@@ -5,7 +5,7 @@ function Footer() {
   return (
     <footer
       style={{
-        backgroundColor: "#071c2f",
+        backgroundColor: "#0761e6",
         color: "white",
         fontFamily: "Poppins, sans-serif",
         marginTop: "5rem",
@@ -22,27 +22,59 @@ function Footer() {
                 className="fa-solid fa-sun me-2"
                 style={{ color: "#d3ff3f" }}
               ></i>
-              Bavion
+              Solar & Renewable Energy
             </h3>
             <h6>Solar & Renewable Energy</h6>
             <p className="small">
               Lorem ipsum dolor sit amet co adipiscing elit ut elit tellus
               luctus nec ullamc pulvinar dapibus leo ipsum dolor.
             </p>
+            {/* ICON SOSMED */}
             <div className="d-flex gap-3">
-              <a href="#" className="text-dark bg-light rounded-circle p-2">
+              <a
+                href="#"
+                className="d-inline-flex align-items-center justify-content-center bg-light text-dark"
+                style={{
+                  width: "30px",
+                  height: "30px",
+                  borderRadius: "50%",
+                  fontSize: "15px",
+                  textDecoration: "none",
+                }}
+              >
                 <i className="fab fa-facebook-f" />
               </a>
-              <a href="#" className="text-dark bg-light rounded-circle p-2">
+              <a
+                href="#"
+                className="d-inline-flex align-items-center justify-content-center bg-light text-dark"
+                style={{
+                  width: "30px",
+                  height: "30px",
+                  borderRadius: "50%",
+                  fontSize: "15px",
+                  textDecoration: "none",
+                }}
+              >
                 <i className="fab fa-twitter" />
               </a>
-              <a href="#" className="text-dark bg-light rounded-circle p-2">
+              <a
+                href="#"
+                className="d-inline-flex align-items-center justify-content-center bg-light text-dark"
+                style={{
+                  width: "30px",
+                  height: "30px",
+                  borderRadius: "50%",
+                  fontSize: "15px",
+                  textDecoration: "none",
+                }}
+              >
                 <i className="fab fa-youtube" />
               </a>
             </div>
           </div>
-          <div className="col-lg-3 mb-4">
+          <div className="col-lg-3 mb-4 px-5">
             <h5 className="fw-bold">Quick Links</h5>
+            <hr></hr>
             <ul className="list-unstyled small">
               {[
                 "Home",
@@ -53,14 +85,18 @@ function Footer() {
                 "Contact Us",
               ].map((item) => (
                 <li key={item} className="mb-2">
-                  <i className="fa-solid fa-circle-chevron-right text-success me-2" />
+                  <i
+                    className="fa-solid fa-circle-chevron-right me-2"
+                    style={{ color: "#d2ff40" }}
+                  />
                   {item}
                 </li>
               ))}
             </ul>
           </div>
-          <div className="col-lg-3 mb-4">
+          <div className="col-lg-3 mb-4 px-5">
             <h5 className="fw-bold">Services</h5>
+            <hr></hr>
             <ul className="list-unstyled small">
               {[
                 "Residential Solar",
@@ -71,17 +107,32 @@ function Footer() {
                 "Off–Grid Solar Systems",
               ].map((item) => (
                 <li key={item} className="mb-2">
-                  <i className="fa-solid fa-circle-chevron-right text-success me-2" />
+                  <i
+                    className="fa-solid fa-circle-chevron-right me-2"
+                    style={{ color: "#d2ff40" }}
+                  />
                   {item}
                 </li>
               ))}
             </ul>
           </div>
+          {/* CONTACT INFORMASI */}
           <div className="col-lg-3 mb-4">
             <h5 className="fw-bold">Contact Information</h5>
+            <hr></hr>
             <ul className="list-unstyled small">
               <li className="d-flex align-items-start mb-3">
-                <span className="bg-success text-dark p-2 rounded-circle me-3">
+                <span
+                  className="d-inline-flex align-items-center justify-content-center text-dark me-2"
+                  style={{
+                    backgroundColor: "#d2ff40",
+                    width: "40px",
+                    height: "40px",
+                    borderRadius: "50%",
+                    fontSize: "20px",
+                    textDecoration: "none",
+                  }}
+                >
                   <i className="fa-solid fa-headset"></i>
                 </span>
                 <div>
@@ -90,7 +141,17 @@ function Footer() {
                 </div>
               </li>
               <li className="d-flex align-items-start mb-3">
-                <span className="bg-success text-dark p-2 rounded-circle me-3">
+                <span
+                  className="d-inline-flex align-items-center justify-content-center text-dark me-2"
+                  style={{
+                    backgroundColor: "#d2ff40",
+                    width: "40px",
+                    height: "40px",
+                    borderRadius: "50%",
+                    fontSize: "20px",
+                    textDecoration: "none",
+                  }}
+                >
                   <i className="fa-solid fa-envelope"></i>
                 </span>
                 <div>
@@ -99,7 +160,17 @@ function Footer() {
                 </div>
               </li>
               <li className="d-flex align-items-start">
-                <span className="bg-success text-dark p-2 rounded-circle me-3">
+                <span
+                  className="d-inline-flex align-items-center justify-content-center text-dark me-2"
+                  style={{
+                    backgroundColor: "#d2ff40",
+                    width: "40px",
+                    height: "40px",
+                    borderRadius: "50%",
+                    fontSize: "20px",
+                    textDecoration: "none",
+                  }}
+                >
                   <i className="fa-solid fa-user"></i>
                 </span>
                 <div>
@@ -152,55 +223,56 @@ function Footer() {
           </div>
         </div>
         {/* <div className="container text-white mb-5  border-top border-secondary pt-5">
-            <div className="row align-items-center">
-              <div className="col-lg-3">
-                <h2 className="fw-bold">
-                  Subscribe Our <br /> Newsletters
-                </h2>
-              </div>
-              <div className="col-lg-9 d-flex justify-content-end my-5">
-                <div
+          <div className="row align-items-center">
+            <div className="col-lg-3">
+              <h2 className="fw-bold">
+                Subscribe Our <br /> Newsletters
+              </h2>
+            </div>
+            <div className="col-lg-9 d-flex justify-content-end my-5">
+              <div
+                style={{
+                  backgroundColor: "white",
+                  borderRadius: "50px",
+                  padding: "5px",
+                  display: "flex",
+                  alignItems: "center",
+                  maxWidth: "700px",
+                  width: "100%",
+                }}
+              >
+                <input
+                  type="email"
+                  placeholder="Enter your email here"
+                  className="form-control border-0 shadow-none"
                   style={{
-                    backgroundColor: "white",
                     borderRadius: "50px",
-                    padding: "5px",
-                    display: "flex",
-                    alignItems: "center",
-                    maxWidth: "700px",
-                    width: "100%",
+                    padding: "1rem 1.5rem",
+                    fontSize: "1rem",
+                  }}
+                />
+                <button
+                  className="btn d-flex align-items-center justify-content-between"
+                  style={{
+                    backgroundColor: "#d3ff3f",
+                    borderRadius: "50px",
+                    padding: "0.75rem 1.5rem",
+                    fontWeight: "500",
+                    color: "#000",
+                    whiteSpace: "nowrap",
                   }}
                 >
-                  <input
-                    type="email"
-                    placeholder="Enter your email here"
-                    className="form-control border-0 shadow-none"
-                    style={{
-                      borderRadius: "50px",
-                      padding: "1rem 1.5rem",
-                      fontSize: "1rem",
-                    }}
-                  />
-                  <button
-                    className="btn d-flex align-items-center justify-content-between"
-                    style={{
-                      backgroundColor: "#d3ff3f",
-                      borderRadius: "50px",
-                      padding: "0.75rem 1.5rem",
-                      fontWeight: "500",
-                      color: "#000",
-                      whiteSpace: "nowrap",
-                    }}
-                  >
-                    Subscribe Now
-                    <span className="ms-2">
-                      <i className="fa-regular fa-circle-right"></i>
-                    </span>
-                  </button>
-                </div>
+                  Subscribe Now
+                  <span className="ms-2">
+                    <i className="fa-regular fa-circle-right"></i>
+                  </span>
+                </button>
               </div>
             </div>
-          </div> */}
-        <div className="row border-top border-secondary pt-3 mt-3">
+          </div>
+        </div> */}
+        <hr></hr>
+        <div className="row pt-3 mt-3">
           <div className="col-lg-6">
             <p className="small mb-0">© 2025 Krakenbox. All Rights Reserved.</p>
           </div>

@@ -1,4 +1,4 @@
-import "../css/GreenPower.css";
+import styles from "../css/GreenPower.module.css";
 function GreenPower() {
   return (
     <div>
@@ -7,7 +7,7 @@ function GreenPower() {
           <div className="row">
             <div className="col-lg-8">
               <div
-                className="banner-hover-wrapper position-relative text-white overflow-hidden"
+                className={`${styles["banner-hover-wrapper"]} position-relative text-white overflow-hidden`}
                 style={{
                   height: "25rem",
                   backgroundImage: 'url("/images/Alat Berat.png")',
@@ -26,7 +26,7 @@ function GreenPower() {
                   }}
                 ></div>
                 <div
-                  className="banner-text position-absolute start-0"
+                  className={`${styles["banner-text"]} position-absolute start-0`}
                   style={{
                     zIndex: 2,
                     padding: "0px 40px 15px 40px",
@@ -40,7 +40,9 @@ function GreenPower() {
                       Green School Solar Initiative
                     </h5>
                   </div>
-                  <div className="banner-extra mt-2 d-flex align-items-center justify-content-between gap-5">
+                  <div
+                    className={`${styles["banner-extra"]} mt-2 d-flex align-items-center justify-content-between gap-5`}
+                  >
                     <p
                       className="mb-0 flex-grow-1"
                       style={{ fontSize: "0.9rem" }}
@@ -65,7 +67,6 @@ function GreenPower() {
                 </div>
               </div>
             </div>
-
             <div className="col-lg-4">
               <div
                 className="position-relative text-white overflow-hidden"
@@ -162,7 +163,7 @@ function GreenPower() {
             </div>
             <div className="col-lg-8">
               <div
-                className="banner-hover-wrapper position-relative text-white overflow-hidden"
+                className={`${styles["banner-hover-wrapper"]} position-relative text-white overflow-hidden`}
                 style={{
                   height: "25rem",
                   backgroundImage: 'url("/images/Alat Berat.png")',
@@ -181,7 +182,7 @@ function GreenPower() {
                   }}
                 ></div>
                 <div
-                  className="banner-text position-absolute start-0"
+                  className={`${styles["banner-text"]} position-absolute start-0`}
                   style={{
                     zIndex: 2,
                     padding: "0px 40px 15px 40px",
@@ -195,7 +196,9 @@ function GreenPower() {
                       Green School Solar Initiative
                     </h5>
                   </div>
-                  <div className="banner-extra mt-2 d-flex align-items-center justify-content-between gap-5">
+                  <div
+                    className={`${styles["banner-extra"]} mt-2 d-flex align-items-center justify-content-between gap-5`}
+                  >
                     <p
                       className="mb-0 flex-grow-1"
                       style={{ fontSize: "0.9rem" }}

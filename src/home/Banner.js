@@ -5,7 +5,7 @@ function BannerSection() {
     <div
       className="container position-relative"
       style={{
-        marginBottom: "-5rem",
+        marginBottom: "-11rem",
         zIndex: 2,
       }}
     >
@@ -27,6 +27,7 @@ function BannerSection() {
     <h4 className="fw-bold mb-0">
       Power Your Future with Clean, Renewable Energy
     </h4>
+    {/* icon */}
     <a
       className="btn btn-primary d-flex align-items-center justify-content-between"
       style={{

@@ -1,16 +1,25 @@
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "../css/Home.css";
+import styles from "../css/Home.module.css";
 import { useEffect, useState } from "react";
 import Why from "./Why";
 import Number from "./Number";
+import Experience from "./Experience";
 import Service from "./Service";
 import Slider from "./Slider";
 import Innovation from "./Innovation";
 import GreenPower from "./GreenPower";
 import Banner from "./Banner";
 
-const images = ["/images/Alat Berat.png", "/images/Alat IT.png", "/images/alat kesehatan.png", "/images/alat laboratorium.png", "/images/Kendaraan.png", "/images/Mobil.png", "/images/Perkakas.png"];
+const images = [
+  "/images/Alat Berat.png",
+  "/images/Alat IT.png",
+  "/images/alat kesehatan.png",
+  "/images/alat laboratorium.png",
+  "/images/Kendaraan.png",
+  "/images/Mobil.png",
+  "/images/Perkakas.png",
+];
 
 function Home() {
   const [index, setIndex] = useState(0);
@@ -40,14 +49,15 @@ function Home() {
           <div className="col-lg-6">
             <div className="p-5 p-md-5 ms-5">
               <div className="text-md-start text-center">
-                <p className="title">
+                <p className={`${styles["title"]}`}>
                   Penyedia Inaproc/E-katalog Terlengkap & Terpercaya Nomor 1 di
                   Indonesia
                 </p>
                 <p className="text-muted" style={{ lineHeight: 2 }}>
-                  Solusi Klik menyediakan berbagai macam produk berkualitas mulai
-                  dari Alat Berat, Elektronik, Furniture, Alat Kesehatan, dan
-                  masih banyak lagi! Mau pengadaan barang di <b>eKatalog LKPP</b>? Ya
+                  Solusi Klik menyediakan berbagai macam produk berkualitas
+                  mulai dari Alat Berat, Elektronik, Furniture, Alat Kesehatan,
+                  dan masih banyak lagi! Mau pengadaan barang di{" "}
+                  <b>eKatalog LKPP</b>? Ya
                   <b> Solusi Klik</b> jawabannya!!
                 </p>
                 <div className="d-flex flex-wrap gap-3 justify-content-md-start justify-content-center my-4">
@@ -69,7 +79,7 @@ function Home() {
                         color: "white",
                         borderRadius: "50%",
                         padding: "10px",
-                        fontSize: "20px"
+                        fontSize: "20px",
                       }}
                     ></i>
                   </a>
@@ -172,25 +182,31 @@ function Home() {
           </div>
           {/* Gambar Kanan */}
           <div className="col-lg-6 p-0">
-            <div className="image-container" style={{ height: "100vh", width: "100%" }}>
+            <div
+              className={`${styles["image-container"]}`}
+              style={{ height: "100vh", width: "100%" }}
+            >
               <img
                 key={index}
                 src={images[index]}
                 alt="Slideshow"
-                className={`img-fluid slideshow-image ${fade ? "fade-in" : "fade-out"}`}
+                className={`${styles["slideshow-image"]} ${
+                  fade ? styles["fade-in"] : styles["fade-out"]
+                }`}
                 style={{ height: "100%", width: "100%", objectFit: "cover" }}
               />
             </div>
           </div>
         </div>
       </div>
-      <Number/>
-      <Service/>
-      <Slider/>
-      <Innovation/>
-      <GreenPower/>
+      <Number />
+      <Experience />
+      <Service />
+      <Slider />
+      <Innovation />
+      <GreenPower />
       <div style={{ position: "relative", zIndex: 2 }}>
-        <Banner/>
+        <Banner />
       </div>
       {/* <Why /> */}
     </div>
