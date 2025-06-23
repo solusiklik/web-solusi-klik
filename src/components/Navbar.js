@@ -40,7 +40,7 @@ function Navbar() {
                   href="#"
                   data-bs-toggle="dropdown"
                 >
-                  Pengadaan
+                  Produk
                 </a>
                 <ul className="dropdown-menu">
                   <li>
@@ -57,22 +57,22 @@ function Navbar() {
               </li>
               <li className="nav-item">
                 <a className="nav-link text-dark" href="#gallery">
-                  Gallery
+                  Tentang Kami
                 </a>
               </li>
               <li className="nav-item">
                 <a className="nav-link text-dark" href="#article">
-                  Article
+                  Projek
                 </a>
               </li>
               <li className="nav-item">
                 <a className="nav-link text-dark" href="/about">
-                  About
+                  Blog
                 </a>
               </li>
               <li className="nav-item">
                 <a className="nav-link text-dark" href="#contact">
-                  Contact Us
+                  Kontak Kami
                 </a>
               </li>
             </ul>

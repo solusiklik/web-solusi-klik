@@ -1,11 +1,22 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
+import { useEffect, useState } from "react";
 
-function HeavyEquipment() {
+function BlogPost() {
+  const [post, setPost] = useState(null);
+
+  useEffect(() => {
+    fetch("https://solusiklik.co.id/wp-json/wp/v2/posts/60300")
+      .then((res) => res.json())
+      .then((data) => setPost(data));
+  }, []);
+
+  if (!post) return <p>Loading...</p>;
+
   return (
-    <div className="container">
-      <h1 className="text-primary">HeavyEquipment Bootstrap!</h1>
+    <div>
+      <h2 dangerouslySetInnerHTML={{ __html: post.title.rendered }} />
+      <p dangerouslySetInnerHTML={{ __html: post.excerpt.rendered }} />
     </div>
   );
 }
 
-export default HeavyEquipment;
+export default BlogPost;

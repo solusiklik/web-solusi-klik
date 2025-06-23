@@ -19,6 +19,14 @@
 .icon-service {
     color: white;
 }
+.card-title {
+    color: black;
+    font-size: 22px;
+}
+.card-text {
+    color: rgb(168, 168, 168);
+    font-size: 16px;
+}
 .card:hover .icon-service {
     color: #0d6dfc;
 }

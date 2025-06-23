@@ -8,9 +8,12 @@ import Experience from "./Experience";
 import Service from "./Service";
 import Slider from "./Slider";
 import Innovation from "./Innovation";
+import Hero from "./Hero";
 import GreenPower from "./GreenPower";
 import Banner from "./Banner";
 import Client from "./Client";
+import LogoCarousel from "./LogoCarousel";
+import HeavyEquipment from "../procurement/HeavyEquipment";
 
 const images = [
   "/images/Alat Berat.png",
@@ -48,7 +51,7 @@ function Home() {
             <div className="p-5 p-md-5 ms-5">
               <div className="text-md-start text-center">
                 <p className={`${styles["title"]}`}>
-                  Penyedia Inaproc/E-katalog Terlengkap & Terpercaya Nomor 1 di
+                  Penyedia <span style={{ color: "red"}}>E-katalog Inaproc</span> Terlengkap & Terpercaya Nomor 1 di
                   Indonesia
                 </p>
                 <p className="text-muted" style={{ lineHeight: 2 }}>
@@ -60,7 +63,7 @@ function Home() {
                 </p>
                 <div className="d-flex flex-wrap gap-3 justify-content-md-start justify-content-center my-4">
                   <a
-                    className="btn btn-primary d-flex align-items-center justify-content-between"
+                    className="btn btn-primary d-flex align-items-center justify-content-center"
                     style={{
                       borderRadius: "3rem",
                       fontSize: "14px",
@@ -73,9 +76,7 @@ function Home() {
                     <i
                       className="fa-brands fa-whatsapp"
                       style={{
-                        backgroundColor: "#0c232b",
                         color: "white",
-                        borderRadius: "50%",
                         padding: "10px",
                         fontSize: "20px",
                       }}
@@ -188,9 +189,12 @@ function Home() {
       <Experience />
       <Client />
       <Service />
-      <Slider />
       <Innovation />
+      <Hero />
       <GreenPower />
+      <Slider />
+      <HeavyEquipment />
+      <LogoCarousel />
       <div style={{ position: "relative", zIndex: 2 }}>
         <Banner />
       </div>

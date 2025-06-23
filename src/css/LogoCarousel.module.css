@@ -1,0 +1,40 @@
+.container {
+  overflow: hidden;
+  background-color: #ececec;
+  padding: 1rem 0;
+  white-space: nowrap;
+}
+
+.sliderLeft {
+  display: inline-flex;
+  animation: scrollLeft 100s linear infinite;
+}
+
+.sliderRight {
+  display: inline-flex;
+  animation: scrollRight 100s linear infinite;
+}
+
+.logo {
+  height: 5rem;
+  margin-right: 4rem;
+  /* filter: brightness(0) invert(1); */
+}
+
+@keyframes scrollLeft {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes scrollRight {
+  0% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}

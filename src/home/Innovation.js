@@ -24,6 +24,14 @@ function Innovation() {
               </h6>
               <div
                 className="d-flex gap-3 align-items-center"
+                style={{ fontSize: "15px" }}
+              >
+                Panduan Lengkap INAPROC Provinsi NAD Aceh. Pengadaan barang dan
+                jasa pemerintah seringkali diwarnai kompleksitas birokrasi dan
+                prosedur yang panjang.
+              </div>
+              <div
+                className="d-flex gap-3 align-items-center mt-2"
                 style={{ fontSize: "13px" }}
               >
                 <div className="d-flex gap-2 align-items-center">
@@ -67,6 +75,14 @@ function Innovation() {
               </h6>
               <div
                 className="d-flex gap-3 align-items-center"
+                style={{ fontSize: "15px" }}
+              >
+                Memahami alur pengadaan membuat pekerjaan lebih terarah dan
+                minim risiko. Artikel ini menyajikan panduan lengkap serta
+                solusi pendampingan terpercaya dari Solusi Klik.
+              </div>
+              <div
+                className="d-flex gap-3 align-items-center mt-2"
                 style={{ fontSize: "13px" }}
               >
                 <div className="d-flex gap-2 align-items-center">
@@ -109,6 +125,14 @@ function Innovation() {
               </h6>
               <div
                 className="d-flex gap-3 align-items-center"
+                style={{ fontSize: "15px" }}
+              >
+                Dengan mengetahui apa itu pengadaan jasa, siapa yang
+                menjalankan, dan bagaimana prosesnya, instansi bisa menjalankan
+                pengadaan secara efisien dan sesuai aturan.
+              </div>
+              <div
+                className="d-flex gap-3 align-items-center mt-2"
                 style={{ fontSize: "13px" }}
               >
                 <div className="d-flex gap-2 align-items-center">

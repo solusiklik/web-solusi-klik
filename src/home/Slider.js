@@ -33,25 +33,13 @@ function Slider() {
         </div>
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <img src="/images/Alat Berat.png" className="d-block w-100" alt="Slide 1"   style={{ height: '400px', objectFit: 'cover' }}/>
-            {/* <div className="carousel-caption d-none d-md-block">
-              <h5>First Slide Title</h5>
-              <p>Description for first slide</p>
-            </div> */}
+            <img src="/images/slider/Gambar 3 Slide-01.jpg" className="d-block w-100" alt="Slide 1"   style={{ objectFit: 'cover' }}/>
           </div>
           <div className="carousel-item">
-            <img src="/images/bnn.png" className="d-block w-100" alt="Slide 2"   style={{ height: '400px', objectFit: 'cover' }}/>
-            {/* <div className="carousel-caption d-none d-md-block">
-              <h5>Second Slide Title</h5>
-              <p>Description for second slide</p>
-            </div> */}
+            <img src="/images/slider/Gambar 3 Slide-02.jpg" className="d-block w-100" alt="Slide 2"   style={{ objectFit: 'cover' }}/>
           </div>
           <div className="carousel-item">
-            <img src="/images/alat laboratorium.png" className="d-block w-100" alt="Slide 3"   style={{ height: '400px', objectFit: 'cover' }}/>
-            {/* <div className="carousel-caption d-none d-md-block">
-              <h5>Third Slide Title</h5>
-              <p>Description for third slide</p>
-            </div> */}
+            <img src="/images/slider/Gambar 3 Slide-03.jpg" className="d-block w-100" alt="Slide 3"   style={{ objectFit: 'cover' }}/>
           </div>
         </div>
         <button

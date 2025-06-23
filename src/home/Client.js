@@ -7,28 +7,34 @@ import "swiper/css/pagination";
 
 const testimonials = [
   {
-    name: "Haruto Sakamoto",
-    role: "Architect",
-    image: "https://i.pravatar.cc/100?img=1",
-    text: "Bavion’s custom solar solutions fit perfectly with my eco-home designs. Clients love the energy savings.",
+    name: "Dinas Lingkungan Hidup",
+    role: "Kab. Gresik. Jawa Timur",
+    image: "/images/PNS/Dlh.png",
+    text: "Kami melakukan pembelian Bulldozer dan Wheel Loader untuk operasional TPA melalui Solusi Klik. Proses pengadaannya cukup lancar dan teknisi cukup responsif saat ada kendala teknis. Suku cadang tersedia dan ada layanan purna jual yang jelas.",
   },
   {
-    name: "Emily Hart",
-    role: "Homeowner",
-    image: "https://i.pravatar.cc/100?img=2",
-    text: "Bavion helped us switch to solar with ease and professionalism. Now, our energy bills are lower and our home is greener.",
+    name: "Dinas PUPR",
+    role: "Provinsi Sumatera Barat",
+    image: "/images/PNS/PU.png",
+    text: "Kami bekerja sama dengan Solusi Klik untuk pengadaan alat berat. Secara umum, prosesnya sesuai aturan e-purchasing dan tim mereka komunikatif sejak awal. Pengiriman juga sesuai jadwal.",
   },
   {
-    name: "Marcus Levine",
-    role: "Operations Director",
-    image: "https://i.pravatar.cc/100?img=3",
-    text: "Their solar system powers our facility efficiently. We’ve cut costs and improved sustainability at the same time.",
+    name: "RSUD Dr. Zainoel Abidin",
+    role: "Kota Banda Aceh – Aceh",
+    image: "/images/PNS/RSUD.png",
+    text: "Solusi Klik membantu kami dalam pengadaan beberapa alat kesehatan. Barang dikirim sesuai pesanan dan mendapat dukungan teknis saat instalasi. Komunikasi selama proses juga cukup baik.",
   },
   {
-    name: "Marcus Levine",
-    role: "Operations Director",
-    image: "https://i.pravatar.cc/100?img=3",
-    text: "Their solar system powers our facility efficiently. We’ve cut costs and improved sustainability at the same time.",
+    name: "Dinas Pendidikan",
+    role: "Provinsi Kalimantan Tengah",
+    image: "/images/PNS/DInas Pendidikan.png",
+    text: "Kami membeli laptop dan proyektor untuk kebutuhan sekolah. Solusi Klik memfasilitasi proses pemesanan di e-Katalog, dan kami dibantu untuk memastikan spek sesuai kebutuhan. Pengiriman aman dan tepat waktu.",
+  },
+  {
+    name: "BPBD",
+    role: "Provinsi Nusa Tenggara Timur",
+    image: "/images/PNS/BPBD.png",
+    text: "Kami menggunakan layanan Solusi Klik untuk pengadaan tenda evakuasi dan genset. Secara keseluruhan, prosesnya berjalan baik dan tim cukup tanggap ketika kami butuh informasi teknis tambahan.",
   },
 ];
 
@@ -40,14 +46,10 @@ export default function Client() {
     >
       <div className="container text-center ">
         <h2 className="fw-semibold display-3 mx-5">
-          What Our Clients Say About Going Solar With Bavion
+          Apa Kata Klien Kami Tentang Pengadaan Bersama Solusi Klik
         </h2>
         <p className="fs-5 text-light mt-3" style={{marginLeft:"15rem", marginRight:"15rem"}}>
-          Client satisfaction is at the heart of everything we do. From
-          residential rooftops to large-scale solar farms, we’ve helped hundreds
-          of clients make the transition to clean, renewable energy—efficiently
-          and affordably. Here’s what they have to say about their experience
-          with our solar solutions.
+          <b>Kepuasan Klien Adalah Prioritas Utama Kami </b>Dari kebutuhan pengadaan skala kecil hingga proyek besar lintas instansi, Solusi Klik telah membantu berbagai lembaga pemerintah menjalankan proses pengadaan secara efisien, transparan, dan sesuai regulasi. Inilah yang mereka sampaikan tentang pengalaman mereka bersama Solusi
         </p>
       </div>
 
@@ -125,8 +127,8 @@ export default function Client() {
             </div>
             <div>
             <span className="mb-0 fw-semibold fs-5">
-              Review Positif <br/>
-              Dari Instansi Pemerintah
+              Ulasan Positif dari<br/>
+              Instansi
             </span>
 
             </div>
@@ -156,12 +158,11 @@ export default function Client() {
           modules={[Navigation, Pagination, Autoplay]}
         >
           {testimonials.map((t, i) => (
-            <SwiperSlide key={i}>
+            <SwiperSlide key={i} style={{height:"40rem"}}>
               <div
                 className="p-5 h-100 d-flex flex-column justify-content-between"
                 style={{
-                  background:
-                    "linear-gradient(to bottom,rgb(45, 104, 255), #0a5bd1)",
+                  backgroundColor: "#fff",
                 }}
               >
                 <div
@@ -171,12 +172,12 @@ export default function Client() {
                   }}
                 >
                   <div
-                    className="text-success display-5 mb-3"
+                    className="text-dark display-5 mb-3"
                     style={{ lineHeight: 0 }}
                   >
                     <i class="fa-solid fa-quote-right"></i>
                   </div>
-                  <p className="mb-5 fs-4">{t.text}</p>
+                  <p className="fs-4 text-dark">{t.text}</p>
                 </div>
                 <div className="d-flex align-items-center gap-3">
                   <img
@@ -187,8 +188,8 @@ export default function Client() {
                     height="100"
                   />
                   <div>
-                    <strong className="text-dark d-block fs-5">{t.name}</strong>
-                    <div className="fs-6">{t.role}</div>
+                    <strong className="text-primary d-block fs-5">{t.name}</strong>
+                    <div className="fs-6 text-dark">{t.role}</div>
                     <div className="text-warning fs-4">★★★★★</div>
                   </div>
                 </div>

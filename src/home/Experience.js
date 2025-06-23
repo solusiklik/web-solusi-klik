@@ -5,7 +5,7 @@ export default function Experience() {
     <div className="row w-100">
       <div className="col-12 col-lg-6 mb-4 mb-lg-0">
         <img
-          src="/images/Alat Berat.png"
+          src="/images/About Us 736.jpg"
           style={{
             width: "100%",
             height: "25rem",
@@ -21,15 +21,15 @@ export default function Experience() {
             <div className={`${styles.card} h-100`}>
               <div className="d-flex justify-content-end mb-3">
                 <div className={styles.icon}>
-                  <i className="fa-solid fa-tools fs-4 text-dark"></i>
+                  <i className="fa-solid fa-tools fs-4 text-white"></i>
                 </div>
               </div>
               <div>
                 <h6 className="fw-semibold mb-2" style={{ fontSize: "25px" }}>
-                  Custom Solar Solutions
+                  Produk Bersertifikasi
                 </h6>
                 <p className="text-muted" style={{ fontSize: "18px", lineHeight: "1.6" }}>
-                  Semua produk memiliki sertifikasi resmi SNI, ISO, dan standar teknis lainnya yang dipersyaratkan pengadaan pemerintah.
+                  Semua produk memiliki sertifikasi resmi SNI, ISO, dan standar teknis lainnya yang dipersyaratkan pengadaan pemerintah. Kualitas terjamin dan dapat dipertanggungjawabkan secara legal.
                 </p>
               </div>
             </div>
@@ -40,7 +40,7 @@ export default function Experience() {
             <div className={`${styles.card} h-100`}>
               <div className="d-flex justify-content-end mb-3">
                 <div className={styles.icon}>
-                  <i className="fa-solid fa-truck-fast fs-4 text-dark"></i>
+                  <i className="fa-solid fa-truck-fast fs-4 text-white"></i>
                 </div>
               </div>
               <div>
