@@ -6,7 +6,7 @@ import "./Navbar.css";
 
 function Navbar() {
   const [scrolled, setScrolled] = useState(false);
-    useEffect(() => {
+  useEffect(() => {
     const handleScroll = () => {
       const offset = window.scrollY;
       setScrolled(offset > 50);
@@ -16,7 +16,11 @@ function Navbar() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
   return (
-    <nav className={`navbar navbar-expand-lg fixed-top px-4 py-2 custom-navbar ${scrolled ? "bg-white shadow-sm" : "bg-transparent"} transition-navbar`}>
+    <nav
+      className={`navbar navbar-expand-lg fixed-top px-4 py-2 custom-navbar ${
+        scrolled ? "bg-white shadow-sm" : "bg-transparent"
+      } transition-navbar`}
+    >
       <div className="container-fluid d-flex align-items-center justify-content-center gap-5">
         {/* Kiri: logo + nav */}
         <div className="d-flex align-items-center gap-5">
@@ -56,9 +60,9 @@ function Navbar() {
                 </ul>
               </li>
               <li className="nav-item">
-                <a className="nav-link text-dark" href="#gallery">
+                <Link className="nav-link text-dark" to="/aboutUs">
                   Tentang Kami
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
                 <a className="nav-link text-dark" href="#article">
@@ -66,14 +70,14 @@ function Navbar() {
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link text-dark" href="/about">
+                <Link className="nav-link text-dark" to="/blog">
                   Blog
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link text-dark" href="#contact">
+                <Link className="nav-link text-dark" to="/contactUs">
                   Kontak Kami
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -98,8 +102,7 @@ function Navbar() {
               href="/store"
               className="btn btn-primary d-flex align-items-center gap-2 rounded-pill px-4 py-2"
             >
-              Our Store{" "}
-              <i class="fa-solid fa-cart-shopping"></i>
+              Our Store <i class="fa-solid fa-cart-shopping"></i>
             </a>
           </div>
         </div>

@@ -7,7 +7,7 @@ import Number from "./Number";
 import Experience from "./Experience";
 import Service from "./Service";
 import Slider from "./Slider";
-import Innovation from "./Innovation";
+import Article from "./Article";
 import Hero from "./Hero";
 import GreenPower from "./GreenPower";
 import Banner from "./Banner";
@@ -189,11 +189,11 @@ function Home() {
       <Experience />
       <Client />
       <Service />
-      <Innovation />
+      <Article />
       <Hero />
       <GreenPower />
       <Slider />
-      <HeavyEquipment />
+      {/* <HeavyEquipment /> */}
       <LogoCarousel />
       <div style={{ position: "relative", zIndex: 2 }}>
         <Banner />

@@ -1,9 +1,12 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./home/Home";
-import About from "./about/About";
+import AboutUs from "./aboutUs/Index";
+import ContactUs from "./contactUs/Index";
+import Blog from "./blog/Index";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
-import 'bootstrap/dist/css/bootstrap.min.css';
+import "bootstrap/dist/css/bootstrap.min.css";
+import './App.css';
 
 export default function App() {
   return (
@@ -11,7 +14,9 @@ export default function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
+        <Route path="/aboutUs" element={<AboutUs />} />
+        <Route path="/contactUs" element={<ContactUs />} />
+        <Route path="/blog" element={<Blog />} />
       </Routes>
       <Footer />
     </BrowserRouter>

@@ -1,6 +1,6 @@
 .container {
   overflow: hidden;
-  background-color: #ececec;
+  /* background-color: #ececec; */
   padding: 1rem 0;
   white-space: nowrap;
 }
